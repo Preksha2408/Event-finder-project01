@@ -111,9 +111,12 @@ The primary motivation behind developing the Event-Finder App was to address the
 # Links 
 
 
-* Deployed App :   
+* Deployed App :    https://preksha2408.github.io/Event-finder-project01/
 
-* GitHub Repo : 
+
+* GitHub Repo :     https://github.com/Preksha2408/Event-finder-project01.git
+
+
 
 
 
