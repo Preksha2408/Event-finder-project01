@@ -1,0 +1,99 @@
+/* Reset and Variables */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.formLabels {
+  width: 30%;
+}
+
+.formControls {
+  color: black;
+  width: 100%;
+}
+
+.formControlContainer {
+  display: flex;
+  width: 100%;
+}
+
+#errorMsg {
+  display: none;
+}
+
+.card {
+  position: relative;
+
+}
+
+.more-info-link {
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: blue;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+#siteLogo {
+  max-height: "100px";
+}
+
+#googleMapsContainer {
+  height: 650px;
+}
+
+#eventResultsContainer {
+  display: flex;
+  flex-direction: column;
+  /* Add this to stack cards vertically */
+  overflow-y: scroll;
+  /* Enable vertical scrolling */
+  max-height: 800px;
+  /* Set a maximum height for the container */
+  /* padding: 20px; */
+  border: 2px solid white;
+  /* Optional, for visualization */
+  /* max-width: 80%; */
+}
+
+.p-5 {
+  flex: 0 0 auto;
+  margin-bottom: 10px;
+  /* Space between cards */
+  /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Card shadow */
+  background-color: white;
+  /* Card background */
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+
+}
+
+.eventResultCard:hover {
+  box-shadow: 10px 5px 5px lightgray;
+}
+
+/* Credit: https://blog.hubspot.com/website/css-loading-animation */
+.loader {
+  margin: auto;
+  border: 10px solid #EAF0F6;
+  border-radius: 50%;
+  border-top: 10px solid lightblue;
+  width: 100px;
+  height: 100px;
+  animation: spinner 4s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
